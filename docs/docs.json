@@ -368,6 +368,7 @@
                     "icon": "terminal",
                     "pages": [
                       "integrations/claude-code",
+                      "integrations/claude-ai",
                       "integrations/cursor",
                       "integrations/codex",
                       "integrations/opencode",
@@ -401,7 +402,6 @@
                     "pages": [
                       "cookbooks/essentials/building-ai-companion",
                       "cookbooks/essentials/entity-partitioning-playbook",
-                      "cookbooks/essentials/controlling-memory-ingestion",
                       "cookbooks/essentials/tagging-and-organizing-memories",
                       "cookbooks/essentials/exporting-memories"
                     ]
@@ -611,6 +611,10 @@
     ]
   },
   "redirects": [
+    {
+      "source": "/open-source/features/reranking",
+      "destination": "/open-source/features/reranker-search"
+    },
     {
       "source": "/platform/features/contextual-add",
       "destination": "/core-concepts/memory-operations/add"
@@ -1246,6 +1250,10 @@
     {
       "source": "/integrations/keywords",
       "destination": "/integrations/respan"
+    },
+    {
+      "source": "/cookbooks/essentials/controlling-memory-ingestion",
+      "destination": "/platform/features/custom-instructions"
     }
   ]
 }
